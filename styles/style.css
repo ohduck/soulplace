@@ -1,0 +1,268 @@
+.html{
+    font-size: 10px;
+}
+.body{
+    background-color:black;
+}
+.soulplace{
+    top: 40%;
+    left: 20%;
+    transform: translate(-20%,-40%);
+    position: absolute;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-family: 'Chakra Petch', sans-serif; font-size: 100px;color: rgb(224, 222, 222);
+}
+.container1{
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+.container1 img
+{
+  min-width: 100vw;
+  min-height: 100vh;
+  
+}*{
+    color: black;
+} 
+.fa-instagram{
+   
+    color:rgb(224, 119, 136);
+}
+.boldtext{
+    font-weight: 800;
+}
+.fa-youtube,.fa-facebook{
+    margin-left: 10px;
+    color:rgb(224, 119, 136);
+}
+.fa-instagram:hover,.fa-youtube:hover,.fa-facebook:hover{
+color: white;
+
+}
+body html{background-color: white;}
+
+
+.detail-text{
+font-size: 20px;
+}
+.footertext{
+    font-weight: 800;
+}
+.offer-text{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+}
+.offer-text-main{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 60px;
+ 
+}
+.transparent{
+    background-color: rgba(0,0,0,0);
+}
+.hero{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.easy{
+    
+    margin-top: 9vh;}
+    .release{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 60px;
+    }
+    .easy img{
+        min-height: 88vh;
+    }
+.diver{
+  
+
+    margin-top: 10vh;
+
+}
+.kuailefont{
+font-family: 'Nunito Sans', sans-serif;}
+.knowmore{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+::-webkit-scrollbar {
+    display: none; 
+}
+.parallax{
+    position:static;
+  }
+.parallax-container{
+    height: 100vh;
+}
+.parallaximg{
+    min-height: 40vh;
+}
+#diverse{
+    min-height: 60vh;
+}
+.a{
+    height: 40vh;
+}
+    body{
+overflow-x: hidden;
+    }
+    .white1{
+        color: white;
+    }
+    
+    .carousel{
+min-width: 100vw;
+    }
+    
+    .x {
+  
+        background: white;
+        padding: 20px;
+        color: white;
+        position: relative;
+      }
+      
+      .x:before {
+        content: '';
+        width: 0; 
+        height: 0; 
+        border-left: 440px solid black; 
+        border-bottom: 5px solid transparent;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+      } 
+      .navtext{color: white;
+          font-size: 24px;
+      }
+      .card-image{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+      }
+
+.cardheight{
+   max-height: 39vh;
+    min-height: 39vh;
+}
+tint::before{
+     background: rgb(224, 119, 136);
+} 
+.pad0{
+    padding-top: 0px;
+}
+.chakra{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.hero1{
+    display:none;
+}
+.reviewtext{
+    margin-left: 30%;
+    text-shadow: 1px 1px 1px rgb(0, 0, 98);
+   }
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .soulplace{
+        font-size: 60px;
+    }
+    .navtext{
+        font-size: 20px;
+        color: black;
+      font-weight: bold;
+    }
+    .offer-text-main{
+        font-size: 40px;
+    }
+   .release{
+       font-size:40px;
+   }
+   .a{
+       min-height: 47vh;
+   }
+   .parallaximg{
+       min-height: 150vh;
+   }
+   .card-image{
+       position: relative;
+       top: 0%;
+       bottom:0%;
+       transform: translate(-50%,0%);
+   } 
+   .x:before {
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left: 300px solid black; 
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+   }
+   .reviewtext{
+    margin-left: 16%;
+    text-shadow: 1px 1px 1px rgb(0, 0, 98);
+   }
+     
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+
+    .card-image{
+        position: relative;
+        top: 0%;
+        bottom:0%;
+        transform: translate(-50%,0%);
+         
+    }
+    
+    .cardheight{
+        max-height: 39vh;
+         min-height: 39vh;
+         max-width: 50vw;
+     }
+     .x:before {
+        content: '';
+        width: 0; 
+        height: 0; 
+        border-left: 400px solid black; 
+        border-bottom: 5px solid transparent;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+       }
+ }
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    
+    
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+    .card-image{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+              }
+
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+    .card-image{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+              }
+}
