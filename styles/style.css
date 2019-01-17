@@ -14,7 +14,7 @@
     font-family: 'Chakra Petch', sans-serif; font-size: 100px;color: rgb(224, 222, 222);
 }
 .container1{
-    transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%); */
     position: relative;
 }
 .container1 img
